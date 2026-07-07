@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: 
+  baseUrl: "catherine-07.github.io/english-wiki/"
   ignorePatterns:
     - private
     - templates
