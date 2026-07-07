@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitleSuffix: "english-wiki"
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: "catherine-07.github.io/english-wiki/"
+  baseUrl: "catherine-07.github.io/english-wiki"
   ignorePatterns:
     - private
     - templates
@@ -44,7 +44,7 @@ plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
-      defaultDateType: modified
+      defaultDateType: created
       priority:
         - frontmatter
         - git
